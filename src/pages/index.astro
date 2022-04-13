@@ -1,5 +1,6 @@
 ---
-import AddBook from '../components/AddBook.tsx';
+import Home from '../components/Home/Home';
+import '../global.css'
 ---
 
 <html lang="en">
@@ -7,23 +8,11 @@ import AddBook from '../components/AddBook.tsx';
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-		<style>
-			html,
-			body {
-				font-family: system-ui;
-				margin: 0;
-				padding: 0;
-			}
-			body {
-				display: grid;
-				height: 100vh;
-				place-items: center;
-			}
-		</style>
+		<title>Home</title>
 	</head>
 	<body>
 		<main>
-			<AddBook /> 
+			<Home />
 		</main>
 	</body>
 </html>

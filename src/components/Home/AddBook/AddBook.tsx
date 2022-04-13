@@ -4,7 +4,7 @@ const AddBook = () => (
   <label htmlFor="add-book" className={styles.container}>
     <img src="plus-icon.svg" alt="plus icon" />
     <p>Add New</p>
-    <input className={styles.hidden} type="file" accept=".pdf, .epub, .mobi" name="Add Book" id="add-book" />
+    <input className={styles.hidden} type="file" accept=".epub" name="Add Book" id="add-book" />
   </label>
 )
 

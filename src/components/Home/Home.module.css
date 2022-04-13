@@ -1,0 +1,9 @@
+:root {
+    --home-bg: #F4F3F1;
+}
+
+.container {
+    background-color: var(--home-bg);
+    height: 100vh;
+    /* Future styles will live here... */
+}
