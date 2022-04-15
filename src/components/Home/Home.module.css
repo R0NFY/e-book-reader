@@ -4,6 +4,7 @@
 
 .container {
     background-color: var(--home-bg);
-    height: 100vh;
+    height: 100%;
+    background-attachment: fixed;
     /* Future styles will live here... */
 }

@@ -22,8 +22,10 @@
     "eslint-plugin-react-hooks": "^4.3.0"
   },
   "dependencies": {
+    "epubjs": "^0.3.93",
+    "localforage": "^1.10.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-reader": "^0.20.6"
+    "uid": "^2.0.0"
   }
 }

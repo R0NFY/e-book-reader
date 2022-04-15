@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    max-width: min(80%, 400px);
+    margin-inline: auto;
+    margin-bottom: 2rem;
+}
+
+.container p {
+    padding-inline: 1rem;
+}
+
+.container:last-child {
+    margin-bottom: 0;
+}
+
+.container img {
+    /* max-height: 400px; */
+}
