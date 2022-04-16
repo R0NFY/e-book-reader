@@ -2,9 +2,10 @@
     --home-bg: #F4F3F1;
 }
 
-.container {
+body {
     background-color: var(--home-bg);
-    height: 100%;
-    background-attachment: fixed;
+}
+
+.container {
     /* Future styles will live here... */
 }

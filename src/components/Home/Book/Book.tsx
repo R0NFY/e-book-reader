@@ -11,6 +11,7 @@ const Book = ({ bookPath }: ArrayBuffer) => {
     const ready = await book.ready
 
     if (ready) {
+      console.log(ready)
       const cover = await book.coverUrl()
       setBookData({ cover, author: ready[2].creator, title: ready[2].title })
     }
@@ -19,6 +20,7 @@ const Book = ({ bookPath }: ArrayBuffer) => {
   useEffect(() => {
     getBook()
   }, [])
+
   return (
     <div className={styles.container}>
       <img src={bookData?.cover} alt="book cover" />
